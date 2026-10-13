@@ -13,7 +13,7 @@ async function main() {
 
     // Llamada básica de generación de contenido
     const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
+      model: 'gemini-3.8-flash',
       contents: 'Escribe un poema corto sobre la programación en Node.js y la inteligencia artificial.',
     });
 
